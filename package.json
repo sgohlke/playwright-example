@@ -1,0 +1,30 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "description": "Example using playwright browser automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "playwright test --browser=all",
+    "initScreenshots": "playwright test --browser=all --update-snapshots"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgohlke/playwright-example.git"
+  },
+  "keywords": [
+    "playwright",
+    "browser",
+    "automation"
+  ],
+  "author": "Stefan Gohlke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgohlke/playwright-example/issues"
+  },
+  "homepage": "https://github.com/sgohlke/playwright-example#readme",
+  "devDependencies": {
+    "@playwright/test": "1.14.1",
+    "playwright": "1.14.1"
+  }
+}
