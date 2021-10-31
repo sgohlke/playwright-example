@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/sgohlke/playwright-example#readme",
   "devDependencies": {
-    "@playwright/test": "1.14.1",
-    "playwright": "1.14.1"
+    "@playwright/test": "1.16.2",
+    "playwright": "1.16.2"
   }
 }
