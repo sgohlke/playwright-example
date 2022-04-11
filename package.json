@@ -4,6 +4,7 @@
   "description": "Example using playwright browser automation",
   "main": "rollthedice.js",
   "scripts": {
+    "installBrowsersCI": "playwright install-deps",
     "start": "node rollthedice.js",
     "test": "playwright test --browser=all",
     "initScreenshots": "playwright test --browser=all --update-snapshots"
