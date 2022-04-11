@@ -1,0 +1,15 @@
+name: Run playwright example
+on: [push]
+
+jobs:
+  playwrightexample:
+    name: Install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - run: npm install
+      - run: npm start
+      - run: npm run test

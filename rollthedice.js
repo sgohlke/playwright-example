@@ -13,6 +13,7 @@ const playwright = require('playwright');
     const page = await context.newPage();
     await page.goto('https://sgohlke.github.io/rollthedice/');
     console.info(`Called page on ${browserType}`);
+    await page.pause();
     
     //console.info(`Fetching page HTML on ${browserType}`);
     //const pageBodyLocator = page.locator('html');
@@ -21,6 +22,7 @@ const playwright = require('playwright');
 
     // CLick the roll button
     await page.locator('#rollButton').click();
+    await page.pause();
 
     console.info(`Fetching game results on ${browserType}`);
     const resultsLocator = page.locator('#result');

@@ -1,6 +1,6 @@
 const fetch = require('cross-fetch');
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
+fetch('https://jsonplaceholder.typicode.com/todos/2')
   .then(res => {
     if (res.status >= 400) {
       throw new Error("Bad response from server");
