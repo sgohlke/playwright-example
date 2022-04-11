@@ -13,4 +13,5 @@ jobs:
       - run: npm install
       - run: npm run installBrowsersCI
       - run: npm start
+      - run: npm run initScreenshots
       - run: npm run test
