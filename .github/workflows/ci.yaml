@@ -11,5 +11,6 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm install
+      - run: npm run installBrowsersCI
       - run: npm start
       - run: npm run test
