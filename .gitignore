@@ -2,3 +2,4 @@
 /test-results/*
 /dice/*
 /obst/*
+/playwright-report/

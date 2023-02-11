@@ -6,8 +6,9 @@
   "scripts": {
     "installBrowsersCI": "playwright install-deps",
     "start": "node rollthedice.js",
-    "test": "playwright test --browser=all",
-    "initScreenshots": "playwright test --browser=all --update-snapshots"
+    "test": "playwright test --browser=all --reporter=html",
+    "initScreenshots": "playwright test --browser=all --update-snapshots",
+    "showReport": "playwright show-report"
   },
   "repository": {
     "type": "git",
