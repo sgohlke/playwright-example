@@ -5,10 +5,13 @@
   "main": "rollthedice.js",
   "scripts": {
     "installBrowsersCI": "playwright install-deps",
+    "stackstream:browser": "playwright test stackstream.spec.js --browser=firefox --reporter=html --headed",
+    "stackstream:headless": "playwright test stackstream.spec.js --browser=chromium --reporter=html",
+    "stackstream:initScreenshots": "playwright test stackstream.spec.js --browser=chromium --update-snapshots",
     "start": "node rollthedice.js",
-    "test": "playwright test --browser=all --reporter=html",
+    "test": "playwright test obst.spec.js --browser=all --reporter=html",
     "testUI": "playwright test --ui",
-    "initScreenshots": "playwright test --browser=all --update-snapshots",
+    "initScreenshots": "playwright test obst.spec.js --browser=all --update-snapshots",
     "showReport": "playwright show-report"
   },
   "repository": {
