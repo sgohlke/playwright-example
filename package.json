@@ -33,7 +33,7 @@
     "@playwright/test": "1.35.1"
   },
   "dependencies": {
-    "cross-fetch": "3.1.6",
+    "cross-fetch": "4.0.0",
     "playwright": "1.35.1"
   }
 }
