@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/sgohlke/playwright-example#readme",
   "devDependencies": {
-    "@playwright/test": "1.48.1"
+    "@playwright/test": "1.48.2"
   },
   "dependencies": {
     "cross-fetch": "4.0.0",
-    "playwright": "1.48.1"
+    "playwright": "1.48.2"
   }
 }
